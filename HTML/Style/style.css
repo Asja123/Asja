@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+
+p h1 {
+    color: blueviolet;
+  }
+  h1 {
+    text-decoration: overline;
+  }
+  h1 {
+    text-shadow: 2px 2px;
+  }
+
+
+
+  #example1 {
+    background-image: url(img_flwr.gif), url(paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <h1>Multiple Backgrounds</h1>
+  <p>The following div element has two background images:</p>
+  
+  <div id="example1">
+    <h1>Мирася!(^._.^)</h1>
+    <p> Пушистых лапок, нежного урчания,<br>
+Пусть мягкой будет шерсть всегда,<br>
+Желаю с кошкой только понимания,<br>
+И пусть не разлучают с ней года.<br><p>
+
+<p>В день кошек пожелаю их любить,<br>
+Пусть коготки от нежности вонзают,<br>
+Как кошки грациозными нам быть,<br>
+И создавать уют, которым их пленяют.<br><p>
+
+<p>Пусть каждый будет лаской окружен,<br>
+Мурлыкает пусть в каждом доме кошка,<br>
+И звуком этим будешь ты заворожен,<br>
+Глаза большие смотря из окошка.<br><p>
+  </div>
+
+
+
+  #rcorners3 {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+  <h1>The border-radius Property</h1>
+
+  <p>Rounded corners for an element with a specified background color:</p>
+  <p id="rcorners1">Rounded corners!</p>
+  <p>Rounded corners for an element with a border:</p>
+  <p id="rcorners2">Rounded corners!</p>
+  <p>Rounded corners for an element with a background image:</p>
+  <p id="rcorners3">Rounded corners!</p>
+
+
+
+  h2 {
+    color: rgb(163, 113, 113);
+    text-shadow: 2px 2px 4px #000000;
+  }
+  h2 {
+    color: rgb(128, 0, 38);
+  }
+
+
+
+  h3 {
+    color: rgb(46, 84, 95);
+    text-shadow: 2px 2px 4px #000000;
+  }
+  h3 {
+    color: rgb(128, 0, 38);
+  }
+
+
+
+  #contacts.html {background-color:rgba(192,192,192,0.3);}
+  <p id="contacts.html">Grey</p>
+
+
+  </body>
+</html>
