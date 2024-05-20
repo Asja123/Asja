@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
+
 body {
   background-color: lightblue;
+}
+
+div {
+  background-color: lightcoral;
 }
 
 p h1 {
@@ -24,30 +25,10 @@ p h1 {
     background-repeat: no-repeat, repeat;
     padding: 15px;
   }
-  </style>
-  </head>
-  <body>
+ 
   
-  <h1>Multiple Backgrounds</h1>
-  <p>The following div element has two background images:</p>
-  
-  <div id="example1">
-    <h1>Мирася!(^._.^)</h1>
-    <p> Пушистых лапок, нежного урчания,<br>
-Пусть мягкой будет шерсть всегда,<br>
-Желаю с кошкой только понимания,<br>
-И пусть не разлучают с ней года.<br><p>
 
-<p>В день кошек пожелаю их любить,<br>
-Пусть коготки от нежности вонзают,<br>
-Как кошки грациозными нам быть,<br>
-И создавать уют, которым их пленяют.<br><p>
 
-<p>Пусть каждый будет лаской окружен,<br>
-Мурлыкает пусть в каждом доме кошка,<br>
-И звуком этим будешь ты заворожен,<br>
-Глаза большие смотря из окошка.<br><p>
-  </div>
 
 
 
@@ -60,15 +41,7 @@ p h1 {
     width: 200px;
     height: 150px;  
   }
-  <h1>The border-radius Property</h1>
-
-  <p>Rounded corners for an element with a specified background color:</p>
-  <p id="rcorners1">Rounded corners!</p>
-  <p>Rounded corners for an element with a border:</p>
-  <p id="rcorners2">Rounded corners!</p>
-  <p>Rounded corners for an element with a background image:</p>
-  <p id="rcorners3">Rounded corners!</p>
-
+  
 
 
   h2 {
@@ -92,8 +65,7 @@ p h1 {
 
 
   #contacts.html {background-color:rgba(192,192,192,0.3);}
-  <p id="contacts.html">Grey</p>
+  
 
 
-  </body>
-</html>
+ 
